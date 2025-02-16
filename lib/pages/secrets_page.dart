@@ -6,8 +6,9 @@ class SecretsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      bottomNavigationBar: TextField(),
       appBar: AppBar(
-        title: Text('Secrets Page'),
+        title: Text('Talk to a Doctor'),
       ),
       body: Column(
         children: [
